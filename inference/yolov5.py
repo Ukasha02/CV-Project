@@ -6,6 +6,11 @@ import torch
 
 from inference.base_detector import BaseDetector
 
+import ssl
+
+# Disable SSL certificate verification
+ssl._create_default_https_context = ssl._create_unverified_context
+
 
 class YoloV5(BaseDetector):
     def __init__(
