@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Soccer Video Analytics"
+name = "soccer-video-analytics"
 version = "0.1.0"
 description = ""
 authors = ["Diego Marvid <dmarvid@tryolabs.com>", "Diego Fernandez <dfernandez@tryolabs.com"]
